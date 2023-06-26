@@ -8,8 +8,10 @@ A api integrated with MySQL DB
 ```npm install nodemon --save-dev```
 
 
-```create database dbApiCarros;```
-```use dbApiCarros;```
+```mysql
+create database dbApiCarros;```
+```mysql
+use dbApiCarros;```
 
 ```mysql
 create table carros (
@@ -19,9 +21,10 @@ placa varchar(7)
 );
 ```
 
-```insert into carros (modelo, placa) values ('Toyota Corolla', 'EMO4953')```
+```mysql
+insert into carros (modelo, placa) values ('Toyota Corolla', 'EMO4953')```
 
-```
+```mysql
 ALTER USER 'seu_usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua_senha';
 ```
 
