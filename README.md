@@ -9,9 +9,12 @@ A api integrated with MySQL DB
 
 
 ```mysql
-create database dbApiCarros;```
+create database dbApiCarros;
+```
+
 ```mysql
-use dbApiCarros;```
+use dbApiCarros;
+```
 
 ```mysql
 create table carros (
@@ -22,7 +25,8 @@ placa varchar(7)
 ```
 
 ```mysql
-insert into carros (modelo, placa) values ('Toyota Corolla', 'EMO4953')```
+insert into carros (modelo, placa) values ('Toyota Corolla', 'EMO4953');
+```
 
 ```mysql
 ALTER USER 'seu_usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua_senha';
